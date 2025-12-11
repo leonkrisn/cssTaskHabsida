@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'barlow';
+    /* src: url('Barlow-Regular-webfont.eot'); */
+    src: url('./assets/font/Barlow-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'barlow';
+    src: url('./assets/font/Barlow-ExtraLight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: lighter;
+}
+@font-face {
+    font-family: 'barlow';
+    /* src: url('Barlow-Regular-webfont.eot'); */
+    src: url('./assets/font/Barlow-Medium-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    background-color: #EFF6FF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: "Montserrat", sans-serif ; */
+    font-family: 'barlow';
+    font-weight: normal;
+    color: #2A4A5C;
+}
+
+
+
+body {
+    display: flex;
+    /* padding-top: 100px; */
+    /* padding-left: 100px; */
+    padding: 100px;
+    /* box-shadow: 1px 1ox 20px #626d7f; */
+}
+
+.layout-box {
+    background-color: #ffffff ;
+    box-shadow: 1px 1px 20px #bdcadd;
+    justify-content: space-between;
+    display: flex;
+}
+
+img {
+    width: 590px;
+
+}
+
+.content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.content div {
+    padding-bottom: 30px;
+}
+
+span.title {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+p.desc {
+    padding-top: 5px;
+    font-size: medium;
+}
+
+.box {
+    padding-top: 30px;
+}
+
+span.or {
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.register-box,
+.login-box {
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    align-items: left;
+    padding-right: 5px;
+    /* padding: 0px 100px; */
+    /* display: inline-block; */
+}
+
+i#facebook {
+    background-color: #255A9B;
+    margin-right: 30px ;
+}
+
+.register-box button {
+    margin-right: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    color: #ffffff;
+    border-style: none;
+}
+
+#facebook {
+    background-color: #255A9B;
+}
+
+#linkedin {
+    background-color: #0076B6;
+}
+
+.login-box {
+    padding-top: 30px;
+}
+
+.login-box input {
+    padding: 7px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-style: groove;
+    border-color: #a9c5f0;
+    padding-bottom: 25px;
+}
+
+.login-box input:hover {
+    /* border-color: #254069; */
+    border-left-color: #081c34;
+}
+
+span.choices-title {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+p.choices-desc {
+    padding: 10px 0px;
+}
+
+.choices-list ul li {
+    justify-content: space-between;
+    display: inline-block;
+    padding: 0px 10px;
+    list-style: none;
+}
+
+.choices-list ul li span {
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.choices-list ul li input {
+    border-radius: 20px;
+}
+
+.choices-desc-list {
+    box-shadow: 1px 1px 20px #bdcadd;
+    /* height: 30px; */
+    /* width: 50px; */
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+    height: 70px;
+    font-size: 13px;
+}
+
+.agree {
+    padding-left: 5px;
+    font-size: 13px;
+}
+.agree a {
+    color: #3698FB;
+}
+.agree a {
+    cursor: pointer;
+}
+
+button.create{
+    padding: 10px 50px;
+    background-color: #3698FB;
+    border-style: none;
+    color: #ffffff;
+    font-weight: bold;
+}
