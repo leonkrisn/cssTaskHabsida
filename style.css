@@ -33,11 +33,15 @@
 
 
 body {
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     /* padding-top: 100px; */
     /* padding-left: 100px; */
-    padding: 100px;
+    /* padding: 100px; */
     /* box-shadow: 1px 1ox 20px #626d7f; */
+
 }
 
 .layout-box {
@@ -49,6 +53,7 @@ body {
 
 img {
     width: 590px;
+    height: 100%;
 
 }
 
@@ -75,6 +80,13 @@ p.desc {
 
 .box {
     padding-top: 30px;
+}
+
+.or-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
 }
 
 span.or {
@@ -123,7 +135,7 @@ i#facebook {
 .login-box input {
     padding: 7px;
     padding-right: 50px;
-    color: #ffffff;
+    /* color: #ffffff; */
     border-style: groove;
     border-color: #a9c5f0;
     padding-bottom: 25px;
