@@ -20,28 +20,26 @@
 }
 
 * {
-    background-color: #EFF6FF;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* font-family: "Montserrat", sans-serif ; */
-    font-family: 'barlow';
-    font-weight: normal;
-    color: #2A4A5C;
+  /* background-color: #eff6ff; / / remove /
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  / font-family: "Montserrat", sans-serif ; */
+  font-family: "barlow";
+  font-weight: normal;
+  color: #2a4a5c;
 }
 
-
-
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding-top: 100px; */
-    /* padding-left: 100px; */
-    /* padding: 100px; */
-    /* box-shadow: 1px 1ox 20px #626d7f; */
-
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff6ff;
+  /* / padding-top: 100px; / */
+  /* / padding-left: 100px; / */
+  /* / padding: 100px; / */
+  /* / box-shadow: 1px 1ox 20px #626d7f; */ 
 }
 
 .layout-box {
@@ -224,6 +222,34 @@ button:hover {
 
 
 /* POP UP TEXT  (Individual) */
+
+
+.radio-label {
+  position: relative;
+  display: block;
+  padding: 12px;
+  cursor: pointer;
+}
+.choices-desc-list {
+  position: absolute;
+  top: 100%; /* below the label */
+  left: 0;
+  display: none;
+  width: 200px;
+  background: #eff6ff;
+  padding: 15px;
+  font-size: 14px;
+  color: #7b8a92;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.radio-label:hover .choices-desc-list {
+  display: block;
+}
+
+
+
+
 
 
 li#individual:hover  {
